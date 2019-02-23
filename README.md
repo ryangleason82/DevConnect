@@ -10,8 +10,8 @@ Tools used:
     - bcrypt: encrypt passwords 
     - JSON Web Token (JWT): access protected routes with tokens
     - Passport: works with authorization. Allows users to "travel" to different API routes based on permission
-    - React
-    - Nodejs
+    - React: front end frameword
+    - Nodejs: backend server
 
 How Authentication Works:
     - Create encrypted password by combining salt and password to create hash
