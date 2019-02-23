@@ -1,4 +1,4 @@
-# DevConnect
+# DevConnect 
 MERN Full-Stack Application
 Social media site to connect developers. View/create profiles, make posts, authentication, authorization, validation, 
 
