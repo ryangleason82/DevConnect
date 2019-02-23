@@ -9,7 +9,7 @@ Tools used:
     - Postman: API development environment simulate client 
     - bcrypt: encrypt passwords 
     - JSON Web Token (JWT): access protected routes with tokens
-    - Passport: 
+    - Passport: works with authorization. Allows users to "travel" to different API routes based on permission
     - React
     - Nodejs
 
