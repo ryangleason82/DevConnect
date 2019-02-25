@@ -1,12 +1,12 @@
 # DevConnect 
-MERN Full-Stack Application
+## MERN Full-Stack Application
 Social media site to connect developers. View/create profiles, make posts, authentication, authorization, validation, 
 
-To run: npm run dev
+### To run: npm run dev
     - Runs backend server at localhost:5000
     - Runs frontend server at localhost:3000  
 
-Tools used:
+### Tools used:
     - Mongo Atlas: DB
     - Mongoose: object data modeling library for mongodb and nodeJS
     - Express: server framework for NodeJS
@@ -29,18 +29,18 @@ Tools used:
     - Redux: state manager, when you need to share data between components
         - npm i redux react-redux redux-thunk
 
-How Authentication Works:
+### How Authentication Works:
     - Create encrypted password by combining salt and password to create hash
     - Hash is stored in db
     - Compare using bcrypt the given password and db password
 
-How Authorization Works:
+### How Authorization Works:
     - If authenticated, create payload comprised of whatever you want to pass as a part of the token, eg. id, name, avatar. Used as header
     - Token is then created with jwt.sign
     - Use Passport to put the token in header which will send it to server, validate so we can use it in express server when authorized (public vs private)
     - Worth noting: you can use Oauth with passport, not limited to JWT. Just uses a different strategy
 
-Tips and Tricks in React
+### Tips and Tricks in React
     - rfc tab: creates a skeleton of functional comoonent
     - rcc tab: skeleton of class component
     - When you want to install a tool with react, need to cd into client directory
