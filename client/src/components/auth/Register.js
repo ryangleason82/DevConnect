@@ -25,6 +25,12 @@ class Register extends Component {
     }
   }
 
+  componentDidMount() {
+    if (this.props.auth.isAuthenticated) {
+      this.props.history.push("/dashboard");
+    }
+  }
+
   //When the user types, this function will be invoked. Takes an event
   onChange(e) {
     this.setState({ [e.target.name]: e.target.value });
