@@ -18,7 +18,7 @@ Social media site to connect developers. View/create profiles, make posts, authe
         - npm i jwt-decode
     - Passport: works with authorization. Allows users to "travel" to different API routes based on permission
         - npm i passport
-    - React: front end frameword
+    - React: front end framework
     - Nodejs: backend server
     - Concurrently: gives you ability to run two commands at once on terminal. Run client server and backend server. Not necessary to open two terminals
         - npm i concurrently
