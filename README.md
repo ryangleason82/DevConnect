@@ -28,6 +28,9 @@ Social media site to connect developers. View/create profiles, make posts, authe
         - npm i classnames
     - Redux: state manager, when you need to share data between components
         - npm i redux react-redux redux-thunk
+    - Moment: a date formatter
+        - npm i moment
+        - npm i react-moment
 
 ### How Authentication Works:
     - Create encrypted password by combining salt and password to create hash
