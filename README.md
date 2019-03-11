@@ -1,6 +1,11 @@
 # DevConnect 
 ## MERN Full-Stack Application
-Social media site to connect developers. View/create profiles, make posts, authentication, authorization, validation, 
+Social media site to connect developers. View/create profiles, make posts, authentication, authorization, validation. 
+Created following Udermy full-stack development course by Brad Traversy
+
+### Link to the finished site
+https://aqueous-ridge-10020.herokuapp.com/
+This site is hosted on Heroku's free tier so it might take a little bit to spin up the server if untouched for a little. 
 
 ### To run: npm run dev
     - Runs backend server at localhost:5000
